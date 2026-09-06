@@ -1,5 +1,13 @@
 package org.quartz.builder;
 
+import java.time.ZonedDateTime;
+import java.util.Arrays;
+import java.util.Date;
+import java.util.Map;
+import java.util.Set;
+import java.util.TimeZone;
+import java.util.stream.Collectors;
+
 import org.quartz.CalendarIntervalScheduleBuilder;
 import org.quartz.CalendarIntervalTrigger;
 import org.quartz.DateBuilder;
@@ -7,10 +15,6 @@ import org.quartz.TriggerBuilder;
 import org.quartz.properties.CalendarTriggerProperties;
 import org.quartz.type.BaseTriggerType;
 import org.springframework.stereotype.Component;
-
-import java.time.ZonedDateTime;
-import java.util.*;
-import java.util.stream.Collectors;
 
 @Component
 public class CalendarIntervalBuilder implements QuartzTriggerBuilder<CalendarIntervalTrigger> {
