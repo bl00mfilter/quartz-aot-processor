@@ -24,3 +24,9 @@ hs_err_pid*
 replay_pid*
 
 checkstyle.xml
+.vscode/settings.json
+quartz-aot-platform-core/target/maven-archiver/pom.properties
+quartz-aot-platform-core/target/surefire-reports/TEST-org.quartz.processor.QuartzTaskDocumentationProcessorTest.xml
+quartz-aot-platform-core/target/surefire-reports/org.quartz.processor.QuartzTaskDocumentationProcessorTest.txt
+*.lst
+quartz-aot-platform-spring-boot-starter/target/maven-archiver/pom.properties
